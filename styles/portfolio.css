@@ -182,3 +182,33 @@ main section{
 .resume-download-cv{
     margin-top: 50px;
 }
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width:50%;
+}
+
+footer input,
+footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;  /* fixed typo */
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Make textarea taller */
+footer textarea{
+    height: 150px;   /* instead of rows="50" */
+    resize: vertical; /* allow vertical resize */
+}
