@@ -160,3 +160,25 @@ main section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
 }
+
+
+
+/*Resume CSS */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}

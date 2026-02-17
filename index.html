@@ -1,120 +1,241 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monirul</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/portfolio.css">
-</head>
-<body class="open-sans-normal">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/portfolio.css" />
+  </head>
+  <body class="open-sans-normal">
     <header class="header secondary-bg">
+      <nav class="nav-title">
+        <h3>Moni<span class="text-primary">R</span>ul</h3>
+        <ul>
+          <li><a class="dark-2" href="">Portfolio</a></li>
+          <li><a class="dark-2" href="">Blogs</a></li>
+          <li>
+            <a href=""><button class="btn-primary">Hire Me</button></a>
+          </li>
+        </ul>
+      </nav>
 
-        <nav class="nav-title">
-            <h3>Moni<span class="text-primary">R</span>ul</h3>
-            <ul>
-                <li><a class="dark-2" href="">Portfolio</a></li>
-                <li><a class="dark-2" href="">Blogs</a></li>
-                <li><a href=""><button class="btn-primary">Hire Me</button></a></li>
-            </ul>
-        </nav>
+      <div class="banner">
+        <div class="banner-content">
+          <h4 class="banner-greetings dark-2">Hi, I am</h4>
+          <h1 class="banner-title">Md. Monirul Islam</h1>
 
-        <div class="banner">
-            <div class="banner-content"> 
-                
-                <h4 class="banner-greetings dark-2">Hi, I am</h4>
-                <h1 class="banner-title">Md. Monirul Islam</h1>
+          <p class="banner-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+            distinctio mollitia sunt beatae porro, illo, doloremque eveniet
+            aspernatur possimus eligendi repellendus quasi quis eos impedit
+            obcaecati similique modi laborum dignissimos.
+          </p>
 
-                <p class="banner-description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio mollitia sunt beatae porro, illo, doloremque eveniet aspernatur possimus eligendi repellendus quasi quis eos impedit obcaecati similique modi laborum dignissimos.
-                </p>
-
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary">Contact</button>
-
-            </div>
-            
-            <img class="banner-profile-pic" src="images/moni.png" alt="">
+          <button class="btn-primary">Download CV</button>
+          <button class="btn-primary">Contact</button>
         </div>
 
+        <img class="banner-profile-pic" src="images/moni.png" alt="" />
+      </div>
     </header>
 
     <main>
-        <section class="about secondary-bg">
+      <section class="about secondary-bg">
+        <h3 class="section-title">About Me</h3>
 
-            <h3 class="section-title">
-                About Me
-            </h3>
+        <p class="section-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+          magnam voluptatum, odit sapiente ad quia placeat facilis nemo eos.
+          Illum saepe consequuntur delectus voluptatem animi eum nulla tenetur
+          culpa itaque.
+        </p>
 
-            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magnam voluptatum, odit sapiente ad quia placeat facilis nemo eos. Illum saepe consequuntur delectus voluptatem animi eum nulla tenetur culpa itaque.
+        <div class="about-items">
+          <!-- .about-item*4>p.item-title+p.item-description-->
+          <div class="about-item">
+            <p class="item-title">Name</p>
+            <p class="item-description">Md. Monirul Islam</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">Email</p>
+            <p class="item-description">monirrul.cse@gmail.com</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">Date of Birth</p>
+            <p class="item-description">26 April 2000</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">From</p>
+            <p class="item-description">Mirpur-11, Dhaka</p>
+          </div>
+        </div>
+      </section>
 
+      <section class="skills">
+        <h3 class="section-title text-center">What I Do</h3>
+        <p class="section-description text-center">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor id
+          minus consectetur illum qui veritatis doloribus cumque molestiae,
+          ducimus quae rerum odio quisquam commodi aliquid nemo vitae laboriosam
+          exercitationem.
+        </p>
+
+        <div class="skills-container">
+          <!--.skill*4>img+h4.skill-title>p.skill-description-->
+          <div class="skill">
+            <img src="images/icons/js.png" alt="" />
+            <h4 class="skill-title">JavaScript</h4>
+            <p class="skill-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              provident aut corporis soluta unde, explicabo numquam sapiente
+              minus expedita id ea qui delectus laboriosam quis nostrum ad et?
+              Aspernatur, architecto?
             </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/react.png" alt="" />
+            <h4 class="skill-title">React</h4>
+            <p class="skill-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta
+              ipsa numquam quisquam cupiditate repellat officia eum voluptates,
+              sint amet velit molestias placeat! Ipsam ab, odio aliquid
+              accusamus alias corporis in?
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/mongo.png" alt="" />
+            <h4 class="skill-title">MongoDB</h4>
+            <p class="skill-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              unde incidunt ducimus distinctio deleniti at, libero aliquam nihil
+              a? Illo, nisi dolorem? Maiores magni autem omnis quasi optio
+              reprehenderit eos?
+            </p>
+          </div>
+          <div class="skill">
+            <img src="images/icons/nodejs.png" alt="" />
+            <h4 class="skill-title">NodeJS</h4>
+            <p class="skill-description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Veritatis dolorum et qui itaque neque, nihil odit veniam.
+              Assumenda, earum optio? Veritatis, a delectus! Cupiditate
+              adipisci, et voluptatum assumenda iusto voluptatibus.
+            </p>
+          </div>
+        </div>
+      </section>
 
-            <div class="about-items">
-                <!-- .about-item*4>p.item-title+p.item-description-->
-                 <div class="about-item">
-                    <p class="item-title">Name</p>
-                    <p class="item-description">Md. Monirul Islam</p>
-                 </div>
-                 <div class="about-item">
-                    <p class="item-title">Email</p>
-                    <p class="item-description">monirrul.cse@gmail.com</p>
-                 </div>
-                 <div class="about-item">
-                    <p class="item-title">Date of Birth</p>
-                    <p class="item-description">26 April 2000</p>
-                 </div>
-                 <div class="about-item">
-                    <p class="item-title">From</p>
-                    <p class="item-description">Mirpur-11, Dhaka</p>
-                 </div>
-                 
+      <section class="resume">
+        <h3 class="section-title">A Summary of My Resume</h3>
+        <div class="resume-container">
+          <div class="resume-column">
+            <h3 class="resume-column-title">My Education</h3>
+            <div class="experience">
+              <h4 class="experience-title">Master in Computer Science</h4>
+              <h5 class="experience-sub-title">
+                Green University of Bangladesh
+              </h5>
+
+              <div class="experience-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis, dolorum iusto! Fugit dolore, doloribus voluptas
+                suscipit architecto commodi molestiae assumenda necessitatibus
+                vel accusantium! Adipisci, commodi culpa. Esse numquam eligendi
+                ratione?
+              </div>
             </div>
 
-        </section>
+            <hr />
 
-        <section class="skills">
-            <h3 class="section-title text-center">What I Do</h3>
-            <p class="section-description text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex dolor id minus consectetur illum qui veritatis doloribus cumque molestiae, ducimus quae rerum odio quisquam commodi aliquid nemo vitae laboriosam exercitationem.
-
-            </p>
-
-            <div class="skills-container">
-                <!--.skill*4>img+h4.skill-title>p.skill-description-->
-                <div class="skill">
-                    <img src="images/icons/js.png" alt="">
-                    <h4 class="skill-title">JavaScript </h4>
-                        <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe provident aut corporis soluta unde, explicabo numquam sapiente minus expedita id ea qui delectus laboriosam quis nostrum ad et? Aspernatur, architecto?</p>
-                
-                </div>
-                <div class="skill">
-                    <img src="images/icons/react.png" alt="">
-                    <h4 class="skill-title">React </h4>
-                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ipsa numquam quisquam cupiditate repellat officia eum voluptates, sint amet velit molestias placeat! Ipsam ab, odio aliquid accusamus alias corporis in?</p>
-                    
-                </div>
-                <div class="skill">
-                    <img src="images/icons/mongo.png" alt="">
-                    <h4 class="skill-title">MongoDB</h4>
-                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem unde incidunt ducimus distinctio deleniti at, libero aliquam nihil a? Illo, nisi dolorem? Maiores magni autem omnis quasi optio reprehenderit eos?</p>
-                </div>
-                <div class="skill">
-                    <img src="images/icons/nodejs.png" alt="">
-                    <h4 class="skill-title">NodeJS</h4>
-                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis dolorum et qui itaque neque, nihil odit veniam. Assumenda, earum optio? Veritatis, a delectus! Cupiditate adipisci, et voluptatum assumenda iusto voluptatibus.</p>
-                    
-                </div>
+            <div class="experience">
+              <h4 class="experience-title">Master in Computer Science</h4>
+              <h5 class="experience-sub-title">
+                Green University of Bangladesh
+              </h5>
+              <div class="experience-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis, dolorum iusto! Fugit dolore, doloribus voluptas
+                suscipit architecto commodi molestiae assumenda necessitatibus
+                vel accusantium! Adipisci, commodi culpa. Esse numquam eligendi
+                ratione?
+              </div>
             </div>
-        </section>
 
+            <hr />
+
+            <div class="experience">
+              <h4 class="experience-title">Master in Computer Science</h4>
+              <h5 class="experience-sub-title">
+                Green University of Bangladesh
+              </h5>
+              <div class="experience-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis, dolorum iusto! Fugit dolore, doloribus voluptas
+                suscipit architecto commodi molestiae assumenda necessitatibus
+                vel accusantium! Adipisci, commodi culpa. Esse numquam eligendi
+                ratione?
+              </div>
+            </div>
+          </div>
+          <div class="resume-column">
+            <h3 class="resume-column-title">My Experience</h3>
+            <div class="experience">
+              <h4 class="experience-title">Master in Computer Science</h4>
+              <h5 class="experience-sub-title">
+                Green University of Bangladesh
+              </h5>
+              <div class="experience-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis, dolorum iusto! Fugit dolore, doloribus voluptas
+                suscipit architecto commodi molestiae assumenda necessitatibus
+                vel accusantium! Adipisci, commodi culpa. Esse numquam eligendi
+                ratione?
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="experience">
+              <h4 class="experience-title">Master in Computer Science</h4>
+              <h5 class="experience-sub-title">
+                Green University of Bangladesh
+              </h5>
+              <div class="experience-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis, dolorum iusto! Fugit dolore, doloribus voluptas
+                suscipit architecto commodi molestiae assumenda necessitatibus
+                vel accusantium! Adipisci, commodi culpa. Esse numquam eligendi
+                ratione?
+              </div>
+            </div>
+            <hr>
+            <div class="experience">
+              <h4 class="experience-title">Master in Computer Science</h4>
+              <h5 class="experience-sub-title">
+                Green University of Bangladesh
+              </h5>
+              <div class="experience-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corporis, dolorum iusto! Fugit dolore, doloribus voluptas
+                suscipit architecto commodi molestiae assumenda necessitatibus
+                vel accusantium! Adipisci, commodi culpa. Esse numquam eligendi
+                ratione?
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center resume-download-cv">
+            <button class="btn-primary">Download CV</button>
+        </div>
+      </section>
     </main>
 
-    <footer>
-
-    </footer>
-    
-</body>
+    <footer></footer>
+  </body>
 </html>
